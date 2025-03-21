@@ -50,6 +50,27 @@
 ## Requirement 3: Secure System Access
 **As a system administrator, I want to restrict access to training data so that only authorized users can modify it.**
 
+### Assumptions & Validation
+- **Assumption:** Unauthorized access to training data could lead to data corruption or security risks.
+- **Validation:** Conduct security audits to ensure access controls function correctly.
+
+### Preliminary Tasks
+- Implement role-based authentication to control data access.
+- Set up activity logging to track modifications and access attempts.
+- Encrypt stored data to prevent unauthorized modifications.
+
+### Actionable Tasks
+- Develop user authentication and role-based access control (RBAC).
+- Implement an access log system for tracking modifications.
+- Encrypt stored and transmitted training data.
+- Perform penetration testing and resolve vulnerabilities.
+
+### Outcome
+- Unauthorized users are prevented from altering training data, ensuring data integrity and security.
+
+---
+
+
 ## Requirement 4: Dataset Export Functionality
 **As a developer, I want to export categorized training data in multiple formats so that I can easily use it in AI training.**
 
