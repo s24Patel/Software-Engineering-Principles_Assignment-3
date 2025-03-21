@@ -97,3 +97,24 @@
 
 ## Requirement 5: Logging and Reporting System
 **As a system owner, I want to track data modifications and bias trends so that I can monitor dataset changes over time.**
+
+### Assumptions & Validation
+- **Assumption:** Monitoring dataset evolution helps improve AI model performance and fairness.
+- **Validation:** Compare AI performance before and after bias mitigation steps.
+
+### Preliminary Tasks
+- Implement a logging system to track dataset changes and bias corrections.
+- Develop trend reports for bias evolution over time.
+- Provide role-based access to reporting tools.
+
+### Actionable Tasks
+- Implement a database schema for logging changes.
+- Develop a dashboard for visualizing dataset modifications.
+- Automate report generation for bias trend analysis.
+- Set up role-based access to reporting tools.
+
+### Outcome
+- Users gain insights into training data history and bias trends for continuous improvement.
+
+---
+
