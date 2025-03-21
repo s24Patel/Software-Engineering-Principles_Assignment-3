@@ -118,3 +118,12 @@
 
 ---
 
+## Additional Preliminary Tasks
+- Conduct interviews with AI developers to confirm the usability and necessity of each feature.
+- Research industry best practices for training data organization and bias detection.
+- Analyze datasets to measure existing bias levels and data organization issues.
+- Develop and test an initial prototype for categorization and bias detection.
+- Gather feedback and refine before full-scale deployment.
+
+---
+
